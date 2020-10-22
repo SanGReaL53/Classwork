@@ -1,0 +1,6 @@
+def remove_palindroms(spells):
+    for x in spells:
+        z = x.lower()
+        if z == z[::-1]:
+            spells.remove(x)
+
