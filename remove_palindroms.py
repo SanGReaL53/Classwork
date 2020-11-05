@@ -8,4 +8,3 @@ def remove_palindroms(spells):
     for word in bw:
         spells.remove(word)
     return(spells)
-        
