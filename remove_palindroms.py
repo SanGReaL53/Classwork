@@ -7,4 +7,5 @@ def remove_palindroms(spells):
             bw.append(x)
     for word in bw:
         spells.remove(word)
+    return(spells)
         
