@@ -13,4 +13,3 @@ def date_autumn(dates):
                 int(ml[i][1]) + int(ml[i][2]) * 365
             day = ml[i]
     return '-'.join(day)
-
