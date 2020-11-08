@@ -8,7 +8,7 @@ def date_autumn(dates):
     maximum = int(day[0]) * 30 + int(day[1]) + int(day[2]) * 365
     for i in range(len(ml)):
         if int(ml[i][0]) * 30 + int(ml[i][1]) \
-            + int(ml[i][2]) * 365 > maximum:
+                + int(ml[i][2]) * 365 > maximum:
             maximum = int(ml[i][0]) * 30 + \
                 int(ml[i][1]) + int(ml[i][2]) * 365
             day = ml[i]
